@@ -1,0 +1,2 @@
+WE can use vite to initialize the folder
+command: npm create vite 
