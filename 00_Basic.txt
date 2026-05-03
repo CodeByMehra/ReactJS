@@ -1,2 +1,5 @@
 WE can use vite to initialize the folder
 command: npm create vite 
+
+
+=> In app funtion of App.jsx, we can return only one element
