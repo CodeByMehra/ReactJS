@@ -1,3 +1,5 @@
  React relies on a component-based architecture. You break the UI down into small, reusable chunks (like a navigation bar or a card)
 
 Rule: A component can only return one parent element. If you need to return multiple elements, wrap them in a Fragment (<> </>), which acts as an empty container without adding extra nodes to the DOM
+
+React use component based architecture
