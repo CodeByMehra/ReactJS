@@ -4,4 +4,4 @@ command: npm create vite
 => In app funtion of App.jsx, we can return only one element. To pass more than one elements we can use fregments
 Fregements are basically epty tags that helps in returnung more than ine elements and also the empty tags are not shown in the output at the  browser
 
-[Timestamp : 00:00]
+[Timestamp : 1:18:00]
