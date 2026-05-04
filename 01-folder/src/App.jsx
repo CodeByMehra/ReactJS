@@ -7,9 +7,12 @@ const app = () => {
       <h1>Mehra's Card</h1>
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore, odio.</p>
 
-      {Card()}
+      {Card()} 
+      {/* USed {} to execute the card */}
     </div>
 
     
   )
 }
+
+export default App 
