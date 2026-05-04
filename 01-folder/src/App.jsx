@@ -1,5 +1,6 @@
 import React from 'react'
 import second from './components/card'
+import Card from './components/card'
 
 const app = () => {
   return (
@@ -9,6 +10,9 @@ const app = () => {
 
       {Card()} 
       {/* USed {} to execute the card */}
+
+      <Card/>
+      {/* in this way the component will be automatically imported  */}
     </div>
 
     
