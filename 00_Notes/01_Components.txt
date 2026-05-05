@@ -3,3 +3,21 @@
 Rule: A component can only return one parent element. If you need to return multiple elements, wrap them in a Fragment (<> </>), which acts as an empty container without adding extra nodes to the DOM
 
 React use component based architecture
+
+
+## Steps to create a component:
+
+Step 1: Create a Component File Start by creating a new file for your component, typically with a .jsx extension (e.g., card.jsx or navbar.jsx). It is a standard practice to keep these files inside a dedicated components folder
+.
+Step 2: Define a JavaScript Function In React, a component is essentially just a JavaScript function
+. You can manually write a standard or arrow function, or you can use the rafce (React Arrow Function Export Component) shortcut if you have React snippet extensions installed to generate the basic structure instantly
+.
+Step 3: Return the UI (JSX) Inside your component function, you must return the JSX (HTML-like tags) that you want to display on the screen
+. Keep in mind the strict React rule: a function can only return one parent element at a time
+. If you need to return multiple side-by-side elements, you must wrap them in a parent div or an empty tag called a Fragment (<>...</>)
+.
+Step 4: Export the Component To make this component usable in other files, you need to export it. This is generally done using a default export at the bottom of your file (e.g., export default Card)
+.
+Step 5: Import and Use the Component Finally, go to the parent file where you want the component to appear (such as App.jsx). Import the component at the top of the file, and then render it inside your code by writing it as a self-closing tag (e.g., <Card /> or <Navbar />)
+. Because components are reusable functions, you can write this tag multiple times to render the component multiple times
+.
