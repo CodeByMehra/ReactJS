@@ -1,0 +1,21 @@
+In React, props (short for "properties") are the mechanism used to pass dynamic data between components
+.
+Here is a detailed breakdown of how props work and why they are essential:
+Top-Down Data Flow: Data using props flows strictly in one direction—from a parent component down to a child component
+. You cannot pass data upwards from a child to a parent using standard props
+. The process of sending data down through the component tree is often referred to as props drilling
+.
+Similar to HTML Attributes and Function Arguments: Giving props to a component visually looks a lot like adding attributes to standard HTML tags (such as id or class)
+. Because React components are fundamentally just JavaScript functions, passing a prop acts exactly like passing an argument into a function so that the function can process and use that data
+.
+Syntax for Passing Props: When rendering a child component inside a parent, you attach your custom data to it. If you are passing a standard text string, you can use double quotes (e.g., user="Aman")
+. However, if you are passing a number, a variable, an array, or an object, you must wrap the value in curly braces {} (e.g., age={18})
+.
+Receiving and Accessing Props: The child component receives all the passed properties grouped together inside a single object parameter
+. While you are free to name this parameter whatever you like, the standard convention is to name it props
+. Since props is just a JavaScript object, you can extract the individual pieces of data using dot notation inside your JSX, such as {props.user} or {props.age}
+.
+Why are Props Important? Props are what make React components truly dynamic and reusable. Instead of building separate components for every piece of data, you can build a single template—like a generic profile <Card />—and call it multiple times. By passing different names, ages, or images via props each time you use the component, React will render completely distinct profiles using the exact same underlying structure
+
+
+
